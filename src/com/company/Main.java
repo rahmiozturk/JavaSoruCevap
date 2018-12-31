@@ -59,7 +59,7 @@ public class Main {
 
         // Vize ve Final Notuna göre geçti kaldı
 
-
+        /*
         int vize,finalnotu;
         double ortalama;
 
@@ -79,6 +79,20 @@ public class Main {
         }else{
             System.err.println("Kaldınız ortalamınız :"+ ortalama);
         }
+        */
+
+        /*4. saru ismini 5 kere yazdırma*/
+        String isim = "";
+        int sayac=0;
+
+        Scanner tara =new Scanner(System.in);
+        System.out.println("Adınızı Girin");
+        isim=tara.nextLine();
+
+        do {
+            System.out.println(isim);
+            sayac++;
+        }while (sayac<5);
         }
 
     }
