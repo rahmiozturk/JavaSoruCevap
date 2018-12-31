@@ -59,7 +59,7 @@ public class Main {
 
         // Vize ve Final Notuna göre geçti kaldı
 
-         
+
         int vize,finalnotu;
         double ortalama;
 
