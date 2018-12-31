@@ -30,6 +30,7 @@ public class Main {
 
      */
 
+     /*
         //2. Klavyeden kenarları verilen üçgenin çeşitini bilin
 
         int x,y,z;
@@ -54,11 +55,28 @@ public class Main {
         }else{
           System.out.println("üçgen ikizkenar");
         }
+        */
 
 
+        int vize,finalnotu;
+        double ortalama;
 
+        Scanner tara =new Scanner(System.in);
 
+        System.out.println("vize notunu girin");
+        vize=tara.nextInt();
 
+        System.out.println("Final notunu girin");
+        finalnotu=tara.nextInt();
+
+        ortalama = 0.4 * vize + 0.6 * finalnotu ;
+
+        if(ortalama>50){
+            System.out.println("Dersi geçtiniz ortalamanız :"+ ortalama);
+
+        }else{
+            System.err.println("Kaldınız ortalamınız :"+ ortalama);
+        }
         }
 
     }
